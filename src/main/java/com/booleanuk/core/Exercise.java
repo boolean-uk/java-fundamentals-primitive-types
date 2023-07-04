@@ -40,7 +40,7 @@ public class Exercise extends ExerciseBase {
 
 
     // 9. Create a public double member named piD that contains the value of pi to 5 decimal places
-
+    public double piD = 3.14159d;
 
 
     public String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
