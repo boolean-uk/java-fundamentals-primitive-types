@@ -20,7 +20,7 @@ public class Exercise extends ExerciseBase {
 
 
     // 4. Change the value of the member below to be the result of subtracting numOne from numThree
-    public int numThreeMinusNumOne = 0;
+    public int numThreeMinusNumOne = numThree-numOne;
 
 
     // 5. Change the value of the member below to be the sum of numOne, numTwo and numThree
