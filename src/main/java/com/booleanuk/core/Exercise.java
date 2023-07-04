@@ -31,19 +31,21 @@ public class Exercise extends ExerciseBase {
     public int numBytes = sum / numOne;
 
 
-    // 7. Create a public char member named lastLetter containing the last letter of the English alphabet
+    public String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
+
+    // 7. Create a public char member named lastLetter containing the last letter of the English alphabet
+    public char lastLetter = alphabet.charAt(alphabet.length() - 1);
 
 
     // 8. Create a public float member named pi that contains the value of pi to two decimal places
-
+    public float pi = 3.14f;
 
 
     // 9. Create a public double member named piD that contains the value of pi to 5 decimal places
+    public double piD = 3.14159d;
 
 
-
-    public String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     public String firstName = "Jane";
     public String lastName = "Smith";
 
