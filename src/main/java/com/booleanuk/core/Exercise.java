@@ -48,17 +48,17 @@ public class Exercise extends ExerciseBase {
     public String lastName = "Smith";
 
     // 10. Create a public member named fullName that contains the value of firstName and lastName concatenated together with a space in between
-
+    public String fullName = firstName + " " + lastName;
 
 
     // 11. Create a public char member named tenthLetter that contains the tenth letter in the alphabet member above.
     // If you need help, here's some documentation: https://www.w3schools.com/java/ref_string_charat.asp
-
+    public char tenthLetter = alphabet.charAt(9);
 
 
     // 12. Create a public string member named lowerAlphabet that contains the value of the alphabet member in all lower case characters
     // If you need help, look through the available String methods to find a relevant one here: https://www.w3schools.com/java/java_ref_string.asp
-
+    public String lowerAlphabet = alphabet.toLowerCase();
 
 
     // 13. Create a public integer member named alphabetLength that contains the number of characters that exist in the alphabet member
