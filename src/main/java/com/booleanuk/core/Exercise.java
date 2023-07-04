@@ -72,4 +72,5 @@ public class Exercise extends ExerciseBase {
 
     public int remainder = 15 % 8;
 
+
 }
