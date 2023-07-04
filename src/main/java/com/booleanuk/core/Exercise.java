@@ -12,7 +12,7 @@ public class Exercise extends ExerciseBase {
 
 
     // 2. Change the value of the member below to be the result of multiplying numThree by numTwo
-    public int numThreeTimesNumTwo = 0;
+    public int numThreeTimesNumTwo = numThree*numTwo;
 
 
     // 3. Change the value of the member below to be the result of dividing numThree by numOne
