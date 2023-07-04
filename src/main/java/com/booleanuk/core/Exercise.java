@@ -24,7 +24,7 @@ public class Exercise extends ExerciseBase {
 
 
     // 5. Change the value of the member below to be the sum of numOne, numTwo and numThree
-    public int sum = 0;
+    public int sum = numOne + numTwo + numThree;
 
 
     // 6. Change the value of the member below to be the sum of numOne, numTwo and numThree divided by numOne
