@@ -40,7 +40,7 @@ public class Exercise extends ExerciseBase {
 
 
     // 9. Create a public double member named piD that contains the value of pi to 5 decimal places
-
+    public double piD = 3.14159;
 
 
     public String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -48,7 +48,7 @@ public class Exercise extends ExerciseBase {
     public String lastName = "Smith";
 
     // 10. Create a public member named fullName that contains the value of firstName and lastName concatenated together with a space in between
-
+    public String fullName = String.format("%s %s", firstName, lastName);
 
 
     // 11. Create a public char member named tenthLetter that contains the tenth letter in the alphabet member above.
