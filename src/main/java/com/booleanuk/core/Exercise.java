@@ -16,7 +16,7 @@ public class Exercise extends ExerciseBase {
 
 
     // 3. Change the value of the member below to be the result of dividing numThree by numOne
-    public int numThreeDividedByNumOne = 0;
+    public int numThreeDividedByNumOne = numThree / numOne;
 
 
     // 4. Change the value of the member below to be the result of subtracting numOne from numThree
