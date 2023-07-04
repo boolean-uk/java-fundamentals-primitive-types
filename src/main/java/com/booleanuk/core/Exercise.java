@@ -68,7 +68,7 @@ public class Exercise extends ExerciseBase {
 
 
     // 14. Create a public integer member named remainder that contains the remainder of dividing 15 by 8
-
+    public int remainder = 15 % 8;
 
 
 }
