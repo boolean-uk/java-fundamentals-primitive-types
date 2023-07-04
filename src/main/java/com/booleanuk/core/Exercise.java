@@ -53,7 +53,7 @@ public class Exercise extends ExerciseBase {
 
     // 11. Create a public char member named tenthLetter that contains the tenth letter in the alphabet member above.
     // If you need help, here's some documentation: https://www.w3schools.com/java/ref_string_charat.asp
-
+    char tenthLetter = alphabet.charAt(9);
 
 
     // 12. Create a public string member named lowerAlphabet that contains the value of the alphabet member in all lower case characters
