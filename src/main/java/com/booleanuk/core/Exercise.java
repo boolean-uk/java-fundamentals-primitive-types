@@ -59,7 +59,7 @@ public class Exercise extends ExerciseBase {
 
     // 12. Create a public string member named lowerAlphabet that contains the value of the alphabet member in all lower case characters
     // If you need help, look through the available String methods to find a relevant one here: https://www.w3schools.com/java/java_ref_string.asp
-
+    public String lowerAlphabet = alphabet.toLowerCase();
 
 
     // 13. Create a public integer member named alphabetLength that contains the number of characters that exist in the alphabet member
