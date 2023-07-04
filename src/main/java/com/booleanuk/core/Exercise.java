@@ -63,11 +63,11 @@ public class Exercise extends ExerciseBase {
 
     // 13. Create a public integer member named alphabetLength that contains the number of characters that exist in the alphabet member
     // Use the documentation linked above if you need help
-    int alphabetLength = alphabet.length();
+    public int alphabetLength = alphabet.length();
 
 
     // 14. Create a public integer member named remainder that contains the remainder of dividing 15 by 8
-
+    public int remainder = 15 % 8;
 
 
 }
