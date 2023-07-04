@@ -36,7 +36,7 @@ public class Exercise extends ExerciseBase {
 
 
     // 8. Create a public float member named pi that contains the value of pi to two decimal places
-
+    public float pi = (float) (Math.round(Math.PI*100)/100.00);
 
 
     // 9. Create a public double member named piD that contains the value of pi to 5 decimal places
