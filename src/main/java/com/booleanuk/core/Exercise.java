@@ -20,15 +20,15 @@ public class Exercise extends ExerciseBase {
 
 
     // 4. Change the value of the member below to be the result of subtracting numOne from numThree
-    public int numThreeMinusNumOne = 0;
+    public int numThreeMinusNumOne = numThree - numOne ;
 
 
     // 5. Change the value of the member below to be the sum of numOne, numTwo and numThree
-    public int sum = 0;
+    public int sum = numOne + numTwo + numThree;
 
 
     // 6. Change the value of the member below to be the sum of numOne, numTwo and numThree divided by numOne
-    public int numBytes = 0;
+    public int numBytes = (numOne + numTwo + numThree)/numOne;
 
 
     // 7. Create a public char member named lastLetter containing the last letter of the English alphabet
