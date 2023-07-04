@@ -8,11 +8,11 @@ public class Exercise extends ExerciseBase {
 
 
     // 1. Change the value of the member below to be the result of adding numOne and numTwo together
-    public int numOnePlusTwo = 0;
+    public int numOnePlusTwo = numOne + numTwo;
 
 
     // 2. Change the value of the member below to be the result of multiplying numThree by numTwo
-    public int numThreeTimesNumTwo = 0;
+    public int numThreeTimesNumTwo = numThree * numTwo;
 
 
     // 3. Change the value of the member below to be the result of dividing numThree by numOne
