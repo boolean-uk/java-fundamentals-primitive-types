@@ -8,7 +8,7 @@ public class Exercise extends ExerciseBase {
 
 
     // 1. Change the value of the member below to be the result of adding numOne and numTwo together
-    public int numOnePlusTwo = 0;
+    public int numOnePlusTwo = numOne + numTwo;
 
 
     // 2. Change the value of the member below to be the result of multiplying numThree by numTwo
@@ -16,7 +16,7 @@ public class Exercise extends ExerciseBase {
 
 
     // 3. Change the value of the member below to be the result of dividing numThree by numOne
-    public int numThreeDividedByNumOne = 0;
+    public int numThreeDividedByNumOne = numThree / numOne;
 
 
     // 4. Change the value of the member below to be the result of subtracting numOne from numThree
@@ -24,7 +24,7 @@ public class Exercise extends ExerciseBase {
 
 
     // 5. Change the value of the member below to be the sum of numOne, numTwo and numThree
-    public int sum = 0;
+    public int sum = numOne + numTwo + numThree;
 
 
     // 6. Change the value of the member below to be the sum of numOne, numTwo and numThree divided by numOne
@@ -32,7 +32,7 @@ public class Exercise extends ExerciseBase {
 
 
     // 7. Create a public char member named lastLetter containing the last letter of the English alphabet
-
+    public char lastLetter = 'Z';
 
 
     // 8. Create a public float member named pi that contains the value of pi to two decimal places
@@ -40,7 +40,7 @@ public class Exercise extends ExerciseBase {
     public float pi = 3.14F;
 
     // 9. Create a public double member named piD that contains the value of pi to 5 decimal places
-
+    public double piD = 3.14159d;
 
 
     public String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -53,6 +53,7 @@ public class Exercise extends ExerciseBase {
 
     // 11. Create a public char member named tenthLetter that contains the tenth letter in the alphabet member above.
     // If you need help, here's some documentation: https://www.w3schools.com/java/ref_string_charat.asp
+    public char tenthLetter = alphabet.charAt(9);
 
 
 
@@ -63,6 +64,7 @@ public class Exercise extends ExerciseBase {
 
     // 13. Create a public integer member named alphabetLength that contains the number of characters that exist in the alphabet member
     // Use the documentation linked above if you need help
+    public int alphabetLength = alphabet.length();
 
 
 
