@@ -24,7 +24,7 @@ public class Exercise extends ExerciseBase {
 
 
     // 5. Change the value of the member below to be the sum of numOne, numTwo and numThree
-    public int sum = numOne + numTwo + numThree;
+    public int sum = numOnePlusTwo + numThree;
 
 
     // 6. Change the value of the member below to be the sum of numOne, numTwo and numThree divided by numOne
@@ -39,11 +39,11 @@ public class Exercise extends ExerciseBase {
 
 
     // 8. Create a public float member named pi that contains the value of pi to two decimal places
-    public float pi = 3.14f;
+    public float pi = Float.parseFloat(String.valueOf(Math.PI).substring(0, 4));
 
 
     // 9. Create a public double member named piD that contains the value of pi to 5 decimal places
-    public double piD = 3.14159d;
+    public double piD = Double.parseDouble(String.valueOf(Math.PI).substring(0, 7));
 
 
     public String firstName = "Jane";
