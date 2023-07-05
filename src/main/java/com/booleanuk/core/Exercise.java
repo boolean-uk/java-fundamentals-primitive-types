@@ -32,7 +32,7 @@ public class Exercise extends ExerciseBase {
 
 
     // 7. Create a public char member named lastLetter containing the last letter of the English alphabet
-    public char lastletter = 'Z';
+    public char lastLetter = 'Z';
 
 
     // 8. Create a public float member named pi that contains the value of pi to two decimal places
@@ -68,6 +68,4 @@ public class Exercise extends ExerciseBase {
 
     // 14. Create a public integer member named remainder that contains the remainder of dividing 15 by 8
     public Integer remainder = 15 % 8;
-
-
 }
