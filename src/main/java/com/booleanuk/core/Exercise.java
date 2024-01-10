@@ -8,27 +8,27 @@ public class Exercise extends ExerciseBase {
 
 
     // 1. Change the value of the member below to be the result of adding numOne and numTwo together
-    public int numOnePlusTwo = 24;
+    public int numOnePlusTwo = numOne + numTwo;
 
 
     // 2. Change the value of the member below to be the result of multiplying numThree by numTwo
-    public int numThreeTimesNumTwo = 512;
+    public int numThreeTimesNumTwo = numThree*numTwo;
 
 
     // 3. Change the value of the member below to be the result of dividing numThree by numOne
-    public int numThreeDividedByNumOne = 4;
+    public int numThreeDividedByNumOne = numThree/numOne;
 
 
     // 4. Change the value of the member below to be the result of subtracting numOne from numThree
-    public int numThreeMinusNumOne = 24;
+    public int numThreeMinusNumOne = numThree-numOne;
 
 
     // 5. Change the value of the member below to be the sum of numOne, numTwo and numThree
-    public int sum = 56;
+    public int sum = numOne+numTwo+numThree;
 
 
     // 6. Change the value of the member below to be the sum of numOne, numTwo and numThree divided by numOne
-    public int numBytes = 7;
+    public int numBytes = (numOne+numTwo+numThree)/numOne;
 
 
     // 7. Create a public char member named lastLetter containing the last letter of the English alphabet
